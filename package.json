@@ -1,0 +1,21 @@
+{
+  "name": "botw-menu.css",
+  "version": "1.0.0",
+  "description": "A style sheet for Breath of the Wild style menus",
+  "author": "DarylBuckle",
+  "license": "MIT",
+  "repository": "DarylBuckle/botw-menu.css",
+  "main": "botw-menu.css",
+  "style": "botw-menu.css",
+  "files": [
+    "botw-menu.css"
+  ],
+  "scripts": {
+    "predeploy": "cd example && npm install && npm run build",
+    "deploy": "gh-pages -d example/build",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
