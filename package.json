@@ -1,6 +1,6 @@
 {
   "name": "botw-menu.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A style sheet for Breath of the Wild style menus",
   "author": "DarylBuckle",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "publish": "npm publish"
   },
   "devDependencies": {
+    "@types/node": "^12.12.38",
     "gh-pages": "^2.2.0"
   }
 }

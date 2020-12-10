@@ -182,6 +182,11 @@
 .botw-menu-item p {
   margin: 0;
 }
+.botw-menu-item a,
+.botw-menu-item a:link,
+.botw-menu-item a:visited {
+  color: white;
+}
 
 /**
  * Menu Item - active.
@@ -248,6 +253,7 @@
   vertical-align: middle;
   background: none;
   border: none;
+  padding: 0;
 }
 .botw-tabs .botw-tab-menu .botw-tab-menu-item:focus {
   outline: 0;
@@ -292,8 +298,12 @@
 /**
  * Button.
  */
-
 .botw-button {
+  background: none;
+  border-style: none;
+  color: white;
+}
+.botw-button .botw-button-content {
   background-color: white;
   color: rgb(12, 13, 8);
   border-radius: 50%;
