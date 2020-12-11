@@ -66,6 +66,7 @@
 .botw-grid-menu .botw-menu-item-container {
   margin: 6px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .botw-menu-item {
@@ -157,6 +158,10 @@
   display: block;
   height: 100%;
   width: 100%;
+}
+.botw-menu-item .botw-menu-item-content i {
+  font-size: 50px;
+  margin: 10px;
 }
 
 .botw-menu-item .botw-menu-item-content .botw-menu-item-count {
